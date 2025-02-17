@@ -12,7 +12,7 @@ class Ingenieria:
         self.semestre = semestre
         self.promedio = promedio
 
-######## METODO INGENIERIA
+######## METODO INGENIERIAA
 class MetodoIngenieria:
     prestamos = []
     
@@ -22,7 +22,7 @@ class MetodoIngenieria:
             opcion = simpledialog.askinteger("Menu de Ingenierias", "Seleccione una opción:\n" + "\n".join(f"{i+1}. {opcion}" for i, opcion in enumerate(opciones)))
             
             if opcion == 1:
-                messagebox.showinfo("Registrar", MetodoIngenieria.registrar_prestamo())
+                messagebox.showinfo(" Registrar", MetodoIngenieria.registrar_prestamo())
             elif opcion == 2:
                 codigo = simpledialog.askstring("Modificar",  "Ingrese el codigo o cedula del prestamo a buscar:")
                 messagebox.showinfo("Modificar", MetodoIngenieria.actualizar_prestamo(codigo))
