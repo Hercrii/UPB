@@ -169,8 +169,3 @@ class GestionBicicletas:
 
 if __name__ == "__main__":
     GestionBicicletas.menu_principal()
-
-
-
-
-
